@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projeto_2</title>
+
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Maderada Virtual</h2>
+            <div class="toggle "></div>
+        </header>   
+                
+                <video src="img/pixel arte.mp4" muted loop autoplay></video>
+
+                <div class="olverlay"></div>
+
+                <div class="text">
+                    <h2>Never Stop</h2>
+                    <h3>exploring the world</h3>
+                    <p>
+                        failure only exists for those who give up trying</p>
+                    
+                    <a href="#">Explore</a>
+
+                </div>
+
+                <ul class="social">
+                    <li ><a href="#"><img src="img/Facebook-f_Logo-Black-Logo.wine.svg" width="100px" alt=""></a></li>
+                    <li><a href=""><img src="img/Instagram-Glyph-Black-Logo.wine.svg" width="100px" alt=""></a></li>
+                    <li><a href=""><img src="img/twitter.svg" width="70px" alt=""></a></li>
+                </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+    })
+    </script>
+</body>
+</html>
